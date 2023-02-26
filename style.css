@@ -8,3 +8,100 @@
     --light-purple: #fbf6ff;
     --green: #4fff4b;
 }
+
+header {
+    background-color: var(--purple-bg);
+    height: 65vh;
+    border-bottom: 8px solid;
+    border-color: var(--green);
+    padding: 5rem;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#search-button {
+    background-color: var(--button-bg);
+    border: 0;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu-pages {
+    font-family: Roboto;
+    font-size: large;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.page {
+    margin-right: 2.5rem;
+}
+
+#home {
+    font-weight: 700;
+    border-left: 2px solid;
+    border-color: var(--green);
+    padding-left: 0.2rem;
+}
+
+#search {
+    display: flex;
+}
+
+#search-input {
+    background-color: var(--dark-bg);
+    border: 0;
+    padding: 1rem;
+    color: var(--white);
+    font-family: Roboto;
+}
+
+#search-button {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+#title {
+    font-family: Poppins;
+    font-size: 2.25rem;
+    color: var(--button-bg);
+}
+
+#description {
+    font-family: Roboto;
+    font-size: 1.125rem;
+    color: var(--light-purple);
+}
+
+#see-more {
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--button-bg);
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+}
+
+#see-more-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+}
+
+#header-text{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-between;
+}
