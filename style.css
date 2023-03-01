@@ -105,3 +105,51 @@ header {
     margin-top: 5rem;
     justify-content: space-between;
 }
+
+.post-title {
+    color: var(--dark-bg);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.post {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 7rem 0rem 0rem 14rem;
+}
+
+#main-posts {
+    display: flex;  
+}
+
+#news-1 {
+    margin-bottom: 3rem;
+    border-bottom: 3px solid;
+    padding: 0rem 0rem 3rem 0rem;
+    border-color: var(--light-purple);
+}
+
+.secundary-post {
+    font-family: Roboto;    
+    font-weight: 400;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 7rem 0rem 0rem 14rem;
+    margin-right: -5rem;
+}
+
+#secundary {
+    display: flex;
+}
+
+main {
+    margin-bottom: 5rem;
+}
